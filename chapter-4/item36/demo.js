@@ -16,9 +16,9 @@ console.log(left.children); // [ 2, 3 ]
 var right = new Tree(4);
 right.addChild(5);
 right.addChild(6);
-var top = new Tree(7);
-top.addChild(left);
-top.addChild(right);
+var middle = new Tree(7);
+middle.addChild(left);
+middle.addChild(right);
 console.log(left.children); // [ 2, 3, 5, 6, { value: 1 }, { value: 4 } ]
 console.log(top.children); // [ 2, 3, 5, 6, { value: 1 }, { value: 4 } ]
 
